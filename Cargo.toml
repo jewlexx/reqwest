@@ -62,6 +62,9 @@ stream = ["tokio/fs", "tokio-util"]
 
 socks = ["tokio-socks"]
 
+# Only works on Rust version > 1.64
+into_future = []
+
 # Internal (PRIVATE!) features used to aid testing.
 # Don't rely on these whatsoever. They may disappear at anytime.
 
